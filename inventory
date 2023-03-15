@@ -1,1 +1,2 @@
+[group]
 client1 ansible_host=172.16.139.132 ansible_connection=ssh ansible_user=gaurav ansible_sudo_pass=gaurav1807
