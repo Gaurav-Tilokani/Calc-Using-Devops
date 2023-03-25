@@ -29,8 +29,8 @@ public class Calculator {
                 case 1:
                     System.out.println("Enter the number you want to find factorial of:");
                     x = sc.nextDouble();
-                    if(x < 0) {
-                        System.out.println("Cannot find factorial of negative number!!");
+                    if(x < 0 || x > 20) {
+                        System.out.println("Cannot find factorial of negative number and numbers greater 20!!");
                         break;
                     }
                     System.out.println("Factorial of " + x + " is " + calculator.factorial(x));
